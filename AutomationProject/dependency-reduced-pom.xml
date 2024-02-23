@@ -10,6 +10,11 @@
     <finalName>CPC2.0.0.1</finalName>
     <plugins>
       <plugin>
+        <groupId>com.github.temyers</groupId>
+        <artifactId>cucumber-jvm-parallel-plugin</artifactId>
+        <version>4.2.0</version>
+      </plugin>
+      <plugin>
         <artifactId>maven-resources-plugin</artifactId>
         <version>3.3.1</version>
         <dependencies>
